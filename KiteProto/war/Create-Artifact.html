@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create an Artifact</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/create.css">
+
+	</head>
+	
+	<body>
+		<div class="main-container">
+			<div class="form-container">
+				<h1>Create Artifact</h1>
+				<form id="createartifact" method="POST">
+					<fieldset>
+						<div class="form-field">
+							<label for="m-name">Name</label>
+							<input type="text" name="m-name" id="m-name"/>
+						</div>
+						
+						<div class="form-field">
+							<label for="m-desc">Description</label>
+							<textarea name="m-desc" id="m-desc"></textarea>
+						</div>
+						
+						<div class="form-field">
+							<label for="m-contenturl">URL</label>
+							<textarea name="m-contenturl" id="m-contenturl"></textarea>
+						</div>
+						<!-- Ask used for content type Pic, Video or Text ? -->
+						
+						<div class="form-field">
+							<label for="m-textartifact">Write here</label>
+							<textarea name="m-textartifact" id="m-textartifact"></textarea>
+						</div>
+
+						<input id="submit-artifact" type="Submit" value="Create Artifact">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="js/createartifact.js"></script>
+	</body>
+</html>

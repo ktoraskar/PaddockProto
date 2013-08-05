@@ -1,0 +1,53 @@
+body {
+	font-family: 'Open-Sans', sans-serif;
+}
+
+#container {
+	
+}
+
+.header-title {
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.options {
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.option {
+	float: left;
+	border-radius: 100%;
+	height: 200px;
+	width: 200px;
+	margin: 0 20px;
+}
+
+.option:hover {
+	opacity: 0.7;
+}
+
+.option.food {
+	background: url("../images/food.jpg");	
+	background-size: cover;
+}
+.option.diy {
+	background: url("../images/craft.jpg");
+	background-size: cover;	
+}
+.option.music {
+	background: url("../images/music.jpg");	
+	background-size: cover;
+}
+.option.travel {
+	background: url("../images/travel.jpg");
+	background-size: cover;	
+}
+.option.lifestyle {
+	background: url("../images/travel.jpg");
+	background-size: cover;	
+}

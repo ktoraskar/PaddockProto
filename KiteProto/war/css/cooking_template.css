@@ -1,0 +1,39 @@
+body {
+/* 	font-family: 'Cuprum', sans-serif; */
+	font-family: 'Open-Sans', sans-serif;
+	background-color: #FFF;
+}
+
+#recipe-container {
+	border-bottom: 5px solid #1F1F1F;
+	border-top: 50px solid #1F1F1F;
+	text-align: center;
+	background-color: #F29A00;
+	width: 70%;
+	height: 800px;
+	margin-left: 17%;
+	font-size: 20px;
+	color: #333;
+	padding-top: 10px;
+}
+
+.food-images{
+	overflow: hidden;	
+	zoom: 1;
+	margin-left: 25%;
+}
+
+.food-image{
+	float: left;
+	width: 100px;
+	height: 100px;
+/* 	border: 1px red solid; */
+	margin-right: 10px;
+}
+
+.recipe-header {
+	margin: 10px;
+}
+.recipe-section {
+	margin: 10px;
+}

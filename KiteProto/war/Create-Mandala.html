@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Create your own Mandala</title>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/create.css">
+	</head>
+	
+	<body>
+		<div class="main-container">
+			<div class="form-container">
+				<h1>Create Mandala</h1>
+				<a href="Create-Artifact.html">Artifact</a>
+				<form id="create" method="POST">
+					<fieldset>
+						<div class="form-field">
+							<label for="m-name">Name</label>
+							<input type="text" name="m-name" id="m-name"/>
+						</div>
+						
+						<div class="form-field">
+							<label for="m-desc">Description</label>
+							<textarea name="m-desc" id="m-desc"></textarea>
+						</div>
+						
+						<div class="form-field">
+							<label for="m-category">Choose your category</label>
+							<select id="m-category" name="m-category">
+								<option id="cooking">Cooking</option>
+								<option id="music">Music</option>
+								<option id="cars">Cars</option>
+								</select>
+						</div>
+						
+						<div class="form-field">
+							<label for="m-bkground">Choose a background photo:</label>
+							<input type="file">
+						</div>
+						
+						<input id="submit-info" type="Submit" value="Create Mandala">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+		<script type="text/javascript" src="js/create.js"></script>
+	</body>
+</html>
